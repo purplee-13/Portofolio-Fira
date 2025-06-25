@@ -18,6 +18,9 @@
 # misc
 .DS_Store
 *.pem
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
 # debug
 npm-debug.log*
@@ -26,6 +29,10 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
+.env.development
+.env.production
+.env.test
 
 # vercel
 .vercel
@@ -33,3 +40,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Editor folder
+.vscode/
+.idea/

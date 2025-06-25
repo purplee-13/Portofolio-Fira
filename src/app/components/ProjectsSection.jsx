@@ -7,55 +7,37 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
+    title: "SOBAT DAGANG - Information System of the Trade Office of Parepare City",
+    description: "This project is a digital platform developed to assist the Parepare City Department of Trade in recording micro, small, and medium enterprises (MSMEs), providing a business directory, and offering online letter submission services. This website facilitates the public in accessing information about local industries and improves the efficiency of services in the fields of trade, industry, and metrology.",
+    image: "/images/projects/sobatdagang.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://sobat-dagang.pareparekota.go.id/",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
+    title: "E-Commerce HRShopku Baju Bodo",
+    description: "This e-commerce platform is specifically designed to assist the MSME HRShopku Baju Bodo in marketing traditional products typical of South Sulawesi online. This website provides a digital product catalog, online ordering features, and a transaction management system that makes it easier for customers to shop and supports the digitalization of local businesses.",
+    image: "/images/projects/hrshopku.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
+    title: "Information System and Services of BEM ITH 2024",
+    description: "This website is developed to provide information about the management structure, affiliated student organizations, and work programs of BEM ITH 2024. In addition, there are features of digital service channels such as aspiration forms, organizational administration services, and publication of campus activities to support transparency and services of student organizations.",
+    image: "/images/projects/BEM.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
+    title: "UI/UX Design for Hotel Booking Website",
+    description: "This project is about designing the user interface and user experience (UI/UX) for a web-based hotel booking website. The design focuses on a modern appearance, easy-to-understand navigation, efficient booking features, and user-friendly detailed hotel information to enhance user comfort in making online reservations.",
+    image: "/images/projects/UIUX.png",
+    tag: ["All", "UI/UX"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -97,8 +79,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="UI/UX"
+          isSelected={tag === "UI/UX"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
