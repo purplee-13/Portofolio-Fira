@@ -16,7 +16,7 @@ const ProjectsSection = () => {
       id: 1,
       title: "Website Parepare Dalam Genggaman (PDG)",
       role: "System Analyst & Full Stack Programmer",
-      period: isIndonesian ? "2025 – Sekarang" : "2025 – Present",
+      period: isIndonesian ? "2025 – 2026" : "2025 – 2026",
       description: isIndonesian
         ? "Pengembangan aplikasi layanan publik. Mengimplementasikan Multi-Factor Authentication (MFA) dengan metode TOTP untuk meningkatkan keamanan autentikasi pengguna serta mengembangkan fitur backend berbasis Next.js dan PostgreSQL."
         : "Public service application development. Implemented Multi-Factor Authentication (MFA) using TOTP to enhance authentication security and developed backend features using Next.js and PostgreSQL.",
