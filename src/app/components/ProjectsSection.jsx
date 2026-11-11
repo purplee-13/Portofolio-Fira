@@ -20,15 +20,17 @@ const ProjectsSection = () => {
       description: isIndonesian
         ? "Pengembangan aplikasi layanan publik. Mengimplementasikan Multi-Factor Authentication (MFA) dengan metode TOTP untuk meningkatkan keamanan autentikasi pengguna serta mengembangkan fitur backend berbasis Next.js dan PostgreSQL."
         : "Public service application development. Implemented Multi-Factor Authentication (MFA) using TOTP to enhance authentication security and developed backend features using Next.js and PostgreSQL.",
-      image: "/images/projects/sobatdagang.png",
+      image: "/images/projects/PDG.png",
       tag: ["All", "System Analyst", "Full Stack"],
-      gitUrl: "#",
+      gitUrl: "https://github.com/purplee-13/PDG",
       previewUrl: "#",
-      tech: ["Next.js", "PostgreSQL", "MFA / TOTP", "System Analysis"]
+      tech: ["Next.js", "PostgreSQL", "MFA / TOTP", "System Analysis"],
     },
     {
       id: 2,
-      title: isIndonesian ? "SOBAT DAGANG – Dinas Perdagangan Kota Parepare" : "SOBAT DAGANG – Parepare City Department of Trade",
+      title: isIndonesian
+        ? "SOBAT DAGANG – Dinas Perdagangan Kota Parepare"
+        : "SOBAT DAGANG – Parepare City Department of Trade",
       role: "System Analyst & Full Stack Programmer",
       period: "3/2025 – 6/2025",
       description: isIndonesian
@@ -36,9 +38,9 @@ const ProjectsSection = () => {
         : "Conducted stakeholder requirements elicitation, drafted SRS documents, and developed MSME management modules, MSME directory, halal certification registration, and CRUD database features.",
       image: "/images/projects/sobatdagang.png",
       tag: ["All", "System Analyst", "Full Stack"],
-      gitUrl: "https://sobat-dagang.pareparekota.go.id/",
+      gitUrl: "https://github.com/abu2906/Sobat-Dagang-MBKM",
       previewUrl: "#",
-      tech: ["PHP", "Laravel", "MySQL", "System Analysis", "CRUD"]
+      tech: ["PHP", "Laravel", "MySQL", "System Analysis", "CRUD"],
     },
     {
       id: 3,
@@ -48,15 +50,17 @@ const ProjectsSection = () => {
       description: isIndonesian
         ? "Mengumpulkan & menganalisis kebutuhan pengguna, menyusun dokumen System Requirement Specification (SRS), merancang alur proses bisnis & use case, serta membuat wireframe & dashboard visualisasi data operasional."
         : "Collected & analyzed user requirements, drafted System Requirement Specification (SRS) documents, designed business process flows & use cases, and created wireframes & operational data visualization dashboard.",
-      image: "/images/projects/hrshopku.png",
+      image: "/images/projects/DIMS.png",
       tag: ["All", "System Analyst", "UI/UX"],
-      gitUrl: "#",
+      gitUrl: "https://github.com/purplee-13/DB-TBG",
       previewUrl: "#",
-      tech: ["SRS", "Wireframing", "Dashboard Design", "Use Case Modeling"]
+      tech: ["SRS", "Wireframing", "Dashboard Design", "Use Case Modeling"],
     },
     {
       id: 4,
-      title: isIndonesian ? "Sistem Manajemen Kelurahan (SIMAK)" : "Sub-District Management System (SIMAK)",
+      title: isIndonesian
+        ? "Sistem Manajemen Kelurahan (SIMAK)"
+        : "Sub-District Management System (SIMAK)",
       role: "System Analyst",
       period: "6/2025 – 7/2025",
       description: isIndonesian
@@ -64,9 +68,9 @@ const ProjectsSection = () => {
         : "Observed & analyzed administrative processes across 22 sub-districts in Parepare, drafted functional & non-functional requirement documents, modeled business processes, and designed UI using Figma.",
       image: "/images/projects/SIMAK.png",
       tag: ["All", "System Analyst", "UI/UX"],
-      gitUrl: "#",
+      gitUrl: "https://github.com/Andif12/simak",
       previewUrl: "#",
-      tech: ["Figma", "UI/UX", "Business Process Modeling", "System Analysis"]
+      tech: ["Figma", "UI/UX", "Business Process Modeling", "System Analysis"],
     },
   ];
 

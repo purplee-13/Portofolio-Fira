@@ -45,6 +45,7 @@ const SkillsSection = () => {
         { name: "Python", icon: SiPython, color: "#3776AB" },
         { name: "PHP", icon: SiPhp, color: "#777BB4" },
         { name: "MySQL", icon: SiMysql, color: "#4479A1" },
+        { name: "PostgreSQL", icon: SiPostgresql, color: "#4169E1" },
       ],
     },
     {
@@ -53,7 +54,6 @@ const SkillsSection = () => {
         { name: "Laravel", icon: SiLaravel, color: "#FF2D20" },
         { name: "Next.js", icon: SiNextdotjs, color: "#FFFFFF" },
         { name: "React", icon: SiReact, color: "#61DAFB" },
-        { name: "PostgreSQL", icon: SiPostgresql, color: "#4169E1" },
         { name: "Git", icon: SiGit, color: "#F05032" },
         { name: "GitHub", icon: SiGithub, color: "#FFFFFF" },
       ],

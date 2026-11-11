@@ -15,7 +15,7 @@ const AchievementsSection = () => {
 
   const achievementsList = [
     {
-      metric: "IPK / GPA",
+      metric: isIndonesian ? "IPK" : "GPA",
       value: "3.97",
       isFloat: true,
     },

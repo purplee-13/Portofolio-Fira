@@ -10,31 +10,38 @@ const PublicationsSection = () => {
   const publications = [
     {
       id: 1,
-      title: "Integrasi layanan fintech dalam platform e-commerce: Studi kasus penggunaan paylater pada generasi Z",
+      title:
+        "Integrasi layanan fintech dalam platform e-commerce: Studi kasus penggunaan paylater pada generasi Z",
       journal: "JEBI (Jurnal Ekonomi dan Bisnis Islam)",
       volume: "Vol. 10 No. 1",
       year: "2025",
-      type: isIndonesian ? "Jurnal Ilmiah Nasional" : "National Scientific Journal",
-      link: "#"
+      type: isIndonesian
+        ? "Jurnal Ilmiah Nasional"
+        : "National Scientific Journal",
+      link: "https://www.jurnal.uts.ac.id/index.php/jebi/article/download/6094/2713",
     },
     {
       id: 2,
-      title: "Penerapan Smart Contract Untuk Pengelolaan Aset Di Institut Teknologi Bacharuddin Jusuf Habibie",
+      title:
+        "Penerapan Smart Contract Untuk Pengelolaan Aset Di Institut Teknologi Bacharuddin Jusuf Habibie",
       journal: "JISSI (Jurnal Informasi dan Sistem Informasi)",
       volume: "Volume 2024",
       year: "2024",
-      type: isIndonesian ? "Jurnal Sistem Informasi" : "Information Systems Journal",
-      link: "#"
+      type: isIndonesian
+        ? "Jurnal Sistem Informasi"
+        : "Information Systems Journal",
+      link: "https://journal.smartpublisher.id/index.php/jissi/article/download/193/164",
     },
     {
       id: 3,
-      title: "Pemanfaatan Google Workspace sebagai Sarana Produktivitas dan Kolaborasi dalam Mendukung Pembelajaran Aktif, Inovatif, dan Kreatif di SMAN 3 Parepare",
+      title:
+        "Pemanfaatan Google Workspace sebagai Sarana Produktivitas dan Kolaborasi dalam Mendukung Pembelajaran Aktif, Inovatif, dan Kreatif di SMAN 3 Parepare",
       journal: "ABDIMAS (Jurnal Pengabdian Masyarakat)",
       volume: "Volume 2023",
       year: "2023",
       type: isIndonesian ? "Pengabdian Masyarakat" : "Community Service Paper",
-      link: "#"
-    }
+      link: "https://journal.umtas.ac.id/index.php/ABDIMAS/article/view/3122",
+    },
   ];
 
   return (
